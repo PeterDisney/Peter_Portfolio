@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className=' mx-auto max-w-screen-xl w-full flex justify-center md:justify-between items-center py-2 px-4 xsm:justify-between items-center py-2 px-4  text-white bg-transparent font-body flex-wrap'>
 
             {/*----------- Personal Logo ------------ */}
-            
+            <img src="../../../Static/favicon.ico"></img>
             {/* ------------- Links ----------------- */}
 
             <ul className='flex items-center '>
@@ -17,7 +17,7 @@ const Navbar = () => {
                 {/* ------------- Menu ------------- */}
 
                 <li className='p-4 text-white'>
-                    <Menu as="div" className="relative inline-block text-right">
+                    <Menu as="div" className="relative inline-block text-left">
                         <Menu.Button>
                             About
                         </Menu.Button>
@@ -35,8 +35,10 @@ const Navbar = () => {
                                     <Menu.Item>
                                         {({ active }) => (
                                             <a
-                                                href="/products/subcategory/street"
+                                                href="/about"
                                                 className={`block px-4 py-2 text-sm ${active ? "bg-gray-100 text-gray-900" : "text-gray-700"}`}
+                                                onMouseOver={() =>"bg-gray-100 text-gray-900"}
+                                                onMouseLeave={() => console.log('left item')}
                                             >
                                                 Peter Disney
                                             </a>
@@ -49,7 +51,7 @@ const Navbar = () => {
                     </Menu>
                 </li>
 
-                {/* --------------Components Menu --------------- */}
+                {/* --------------Resume Menu --------------- */}
 
                 <li className='p-4 text-white'>
                     <Menu as="div" className="relative inline-block text-right">
@@ -83,7 +85,7 @@ const Navbar = () => {
                     </Menu>
                 </li>
 
-                {/* ----------- Accessories Menu -------------- */}
+                {/* ----------- Testimonials Menu -------------- */}
 
                 <li className='p-4 text-white'>
                     <Menu as="div" className="relative inline-block text-right">
@@ -104,7 +106,7 @@ const Navbar = () => {
                                     <Menu.Item>
                                         {({ active }) => (
                                             <a
-                                                href="/products/subcategory/bags"
+                                                href="/testimonials"
                                                 className={`block px-4 py-2 text-sm ${active ? 'bg-gray-100 text-gray-900' : 'text-gray-700'}`}
                                             >
                                                 Refrences
@@ -116,10 +118,11 @@ const Navbar = () => {
                         </Transition>
                     </Menu>
                 </li>
+                {/* ----------- Projects Menu -------------- */}
                 <li className='p-4 text-white'>
                     <Menu as="div" className="relative inline-block text-right">
                         <Menu.Button>
-                            Works
+                            Projects
                         </Menu.Button>
                         <Transition
                             as={Fragment}
@@ -135,7 +138,7 @@ const Navbar = () => {
                                     <Menu.Item>
                                         {({ active }) => (
                                             <a
-                                                href="/products/subcategory/bags"
+                                                href="/projects"
                                                 className={`block px-4 py-2 text-sm ${active ? 'bg-gray-100 text-gray-900' : 'text-gray-700'}`}
                                             >
                                                 Projects
@@ -147,6 +150,7 @@ const Navbar = () => {
                         </Transition>
                     </Menu>
                 </li>
+                {/* ----------- Contact Menu -------------- */}
                 <li className='p-4 text-white'>
                     <Menu as="div" className="relative inline-block text-right">
                         <Menu.Button>
@@ -166,10 +170,20 @@ const Navbar = () => {
                                     <Menu.Item>
                                         {({ active }) => (
                                             <a
-                                                href="/contact"
+                                                href="/contact/email"
                                                 className={`block px-4 py-2 text-sm ${active ? 'bg-gray-100 text-gray-900' : 'text-gray-700'}`}
                                             >
                                                 Email
+                                            </a>
+                                        )}
+                                    </Menu.Item>
+                                    <Menu.Item>
+                                        {({ active }) => (
+                                            <a
+                                                href="/contact/linkedin"
+                                                className={`block px-4 py-2 text-sm ${active ? 'bg-gray-100 text-gray-900' : 'text-gray-700'}`}
+                                            >
+                                                LinkedIn
                                             </a>
                                         )}
                                     </Menu.Item>
