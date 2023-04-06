@@ -1,12 +1,12 @@
-import React from 'react'
-import Navbar from '../components/GenericComponents/Navbar'
+import React from "react";
+import Navbar from "../components/GenericComponents/Navbar";
 
 const Main = () => {
   return (
     <div>
-    <Navbar />
+      <Navbar />
     </div>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;
