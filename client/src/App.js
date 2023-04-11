@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import Main from './views/Main';
 import About from './views/About';
-import Resume from './views/Resume';
+import CodingResume from './views/CodingResume';
+import GeneralResume from './views/GeneralResume';
 import Testimonials from './views/Testimonials';
 import Projects from './views/Projects';
 import Contact from './views/Contact';
@@ -20,7 +21,8 @@ function App() {
       <Routes>
         <Route element={<Main />} path='/' />
         <Route element={<About />} path='/about'/>
-        <Route element={<Resume />} path='/resume'/>
+        <Route element={<CodingResume />} path='/resume/coding'/>
+        <Route element={<GeneralResume />} path='/resume/general'/>
         <Route element={<Testimonials />} path='/testimonials'/>
         <Route element={<Projects />} path='/projects'/>
         <Route element={<Contact />} path='/contact'/>

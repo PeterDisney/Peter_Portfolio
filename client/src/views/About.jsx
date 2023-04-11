@@ -1,9 +1,59 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
-    <div>About</div>
-  )
-}
+    <div>
+      <div className="max-w-2xl mx-auto">
+        <div className="w-full">
+          <p>About</p>
+        </div>
+        <div className="w-full flex justify-center">
+          <div className="w-full lg:w-3/4">
+            <div className="mx-2">
+              <p className="my-4">
+                My name is Peter Disney, an aspiring software developer on a
+                journey to become a skilled developer in Full-Stack React,
+                Python, and Java. Peter's passion for technology and programming
+                started at a young age, where he spent most of his free time
+                tinkering with various software applications and exploring how
+                they worked. This led him to pursue a coding bootcamp where i
+                gained a solid foundation in programming principles and
+                concepts.
+              </p>
+              <p className="my-4">
+                As an ambitious and driven individual, Peter constantly seeks to
+                improve his skills and stay up-to-date with the latest trends
+                and advancements in software development. He is currently
+                focusing on mastering Full-Stack React, Python, and Java, which
+                are widely used in developing various types of software
+                applications. Peter's development journey is characterized by
+                his strong work ethic, attention to detail, and dedication to
+                delivering quality work. He has a keen eye for problem-solving
+                and is always eager to tackle complex challenges, which has
+                enabled him to develop a deep understanding of software
+                development.
+              </p>
+              <p className="my-4">
+                Apart from his technical abilities, Peter is an excellent
+                communicator who works well in teams. He understands the
+                importance of collaboration in software development and is
+                always willing to share his knowledge with others to foster a
+                positive learning environment. Peter's ultimate goal is to
+                become a skilled developer who can deliver innovative and
+                reliable software solutions that meet the needs of users. He
+                believes that with hard work, dedication, and a willingness to
+                learn, anything is possible in the world of software
+                development. Thank you for taking the time to learn about Peter
+                Disney. He looks forward to connecting with others in the
+                software development community and learning from their
+                experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default About
+export default About;
