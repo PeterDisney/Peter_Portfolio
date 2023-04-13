@@ -18,7 +18,7 @@ const Navbar = () => {
         <img src="../../../Static/favicon.ico" alt=""></img>
         {/* ------------- Links ----------------- */}
 
-        <ul className="flex items-center toggleButton">
+        <ul className="flex items-center">
           <button
             onClick={() => {
               setExpandNavbar((prev) => !prev);
