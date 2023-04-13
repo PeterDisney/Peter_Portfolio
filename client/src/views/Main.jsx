@@ -14,6 +14,7 @@ const Main = () => {
           <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="bg-white shadow-xl rounded-lg overflow-hidden">
               <div className="px-4 py-5 sm:px-6">
+
                 <h2 className="text-6xl font-bold text-gray-800">Peter Disney</h2>
                 <p className="mt-1 text-2xl text-gray-600">
                   Full-Stack Software Developer
