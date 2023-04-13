@@ -149,7 +149,9 @@ const Navbar = () => {
               </Transition>
             </Menu>
           </li>
+
           {/* ----------- Projects Menu -------------- */}
+          
           <li className="p-4 text-white">
             <Menu as="div" className="relative inline-block text-right">
               <Menu.Button>Projects</Menu.Button>
@@ -208,7 +210,7 @@ const Navbar = () => {
                               : "text-gray-700"
                           }`}
                         >
-                          Email
+                          ✉️ Email 
                         </a>
                       )}
                     </Menu.Item>
