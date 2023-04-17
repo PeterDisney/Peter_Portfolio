@@ -1,17 +1,17 @@
 import React from "react";
-import Navbar from "../components/GenericComponents/Navbar";
+import Navbar from "../components/Navbar";
 import About from "./About";
 import CodingResume from "./CodingResume";
 import "../index.css";
 
 const Main = () => {
   
-  const languages = ['JavaScript', 'Java', 'Python', 'HTML5', 'CSS', 'SQL'];
-  const frontEnd = ['React', 'JSX', 'Jinja2', 'Bootstrap', 'Tailwind'];
-  const backEnd = ['Flask', 'Spring Boot', 'Django', 'Express'];
-  const databases = ['Mongo', 'MySQL', 'Mongoose'];
-  const aws = ['AWS', 'EC2', 'S3 Bucket', 'Cloud Front', 'Route 53', 'SSL', 'Deployment'];
-  const tools = ['Git', 'GitHub'];
+  // const languages = ['JavaScript', 'Java', 'Python', 'HTML5', 'CSS', 'SQL'];
+  // const frontEnd = ['React', 'JSX', 'Jinja2', 'Bootstrap', 'Tailwind'];
+  // const backEnd = ['Flask', 'Spring Boot', 'Django', 'Express'];
+  // const databases = ['Mongo', 'MySQL', 'Mongoose'];
+  // const aws = ['AWS', 'EC2', 'S3 Bucket', 'Cloud Front', 'Route 53', 'SSL', 'Deployment'];
+  // const tools = ['Git', 'GitHub'];
 
 
   return (
