@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import Main from './views/Main';
-import About from './views/About';
-import CodingResume from './views/CodingResume';
-import GeneralResume from './views/GeneralResume';
-import Testimonials from './views/Testimonials';
-import Projects from './views/Projects';
-import Contact from './views/Contact';
-import Email from './views/Email';
+import About from './components/About';
+import CodingResume from './components/CodingResume';
+import GeneralResume from './components/GeneralResume';
+import Testimonials from './components/Testimonials';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Email from './components/Email';
 
 
 import { Routes, Route } from 'react-router-dom'
