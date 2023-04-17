@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="shadow-lg p-6 rounded-xl">
-      <div className="text-3xl font-bold">
+      <div className="text-4xl font-bold mb-4">
         <p>About</p>
       </div>
       <div className="flex max-w-2xl mx-auto">
@@ -26,7 +26,7 @@ const About = () => {
           </div>
         </div>
         <div>
-          <img src="\Static\peter_headshot_1.jpg" className=""></img>
+          <img src="\Static\peter_headshot_1.jpg" className="" alt=""></img>
         </div>
       </div>
     </div>
