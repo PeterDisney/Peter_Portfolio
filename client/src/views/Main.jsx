@@ -1,7 +1,7 @@
 import React from "react";
 // import Navbar from "../components/Navbar";
 import About from "../components/About";
-import CodingResume from "../components/CodingResume";
+import Projects from "../components/Projects";
 import Skill from "../components/Skill";
 import Navbar2 from "../components/Navbar2";
 import "../index.css";
@@ -40,7 +40,7 @@ const Main = () => {
           </div>
         </section>
         {/* ABOUT */}
-        <section className="text-left mt-16 shadow-xl p-6 rounded-xl">
+        <section className="text-left shadow-xl p-6 rounded-xl">
           <About />
         </section>
         {/* SKILLS */}
@@ -64,7 +64,7 @@ const Main = () => {
         {/* RESUME */}
         <section>
           <div className="mt-16 bg-gray-100 shadow-lg p-6 rounded-xl">
-            <CodingResume />
+            <Projects />
           </div>
         </section>
       </body>
