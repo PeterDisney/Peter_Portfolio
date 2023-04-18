@@ -57,7 +57,7 @@ const Main = () => {
 
         {/* SKILLS */}
         <section>
-          <div className="mt-16 bg-gray-100 shadow-lg p-6 rounded-xl">
+          <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 rounded-xl">
             <p className="text-4xl font-bold mb-4">Skills and Technologies</p>
             <p className="text-xl mb-2">
               The following is a list of my current skills and utilized
