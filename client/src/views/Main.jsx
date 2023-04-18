@@ -2,7 +2,7 @@ import React from "react";
 // import Navbar from "../components/Navbar";
 import About from "../components/About";
 import Projects from "../components/Projects";
-import Skill from "../components/Skill";
+import Skill from "../components/skill";
 import Navbar2 from "../components/Navbar2";
 import MotoMarket from "../Assets/MotoMarket_1.jpg";
 import PNWAir from "../Assets/PNWAirlines.jpg";
@@ -79,9 +79,7 @@ const Main = () => {
           <div className="mt-16 bg-gray-100 shadow-lg p-6 rounded-xl">
             <Projects
               name={"Ecommerce App"}
-              projectDescription={
-                "A REACT"
-              }
+              projectDescription={"A REACT"}
               appLink={"https://motomarket.shop/"}
               appImage={MotoMarket}
               appRepo={"https://github.com/PeterDisney/Ecommerce"}
@@ -91,9 +89,7 @@ const Main = () => {
             />
             <Projects
               name={"Airline Ecommerce App"}
-              projectDescription={
-                "A JAVA application, ."
-              }
+              projectDescription={"A JAVA application, ."}
               appLink={"https://www.pnwairlines.flights/"}
               appImage={PNWAir}
               appRepo={"https://github.com/PeterDisney/"}
