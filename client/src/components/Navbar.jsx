@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Fragment } from "react";
-import "../../styles/Navbar.css";
 import { Transition, Menu } from "@headlessui/react";
 // import ReorderIcon from "@material-ui/icons/Reorder";
 
