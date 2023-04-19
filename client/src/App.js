@@ -4,7 +4,6 @@ import Main from './views/Main';
 import About from './components/About';
 import CodingResume from './components/CodingResume';
 import GeneralResume from './components/GeneralResume';
-import Testimonials from './components/Testimonials';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Email from './components/Email';
@@ -23,7 +22,6 @@ function App() {
         <Route element={<About />} path='/about'/>
         <Route element={<CodingResume />} path='/resume/coding'/>
         <Route element={<GeneralResume />} path='/resume/general'/>
-        <Route element={<Testimonials />} path='/testimonials'/>
         <Route element={<Projects />} path='/projects'/>
         <Route element={<Contact />} path='/contact'/>
         <Route element={<Email />} path='/contact/email'/>
