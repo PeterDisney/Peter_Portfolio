@@ -12,7 +12,7 @@ const Project = ({
 }) => {
   return (
     <div className="shadow-lg bg-white p-6 rounded-xl mb-8">
-      <p className="text-2xl font-bold mb-4">{name}</p>
+      <p className="text-4xl font-bold mb-4">{name}</p>
       <p className="text-lg mb-2">{projectDescription}</p>
       <img className="shadow-xl rounded-lg mx-auto" src={appImage} alt={name} />
       <p className=" text-lg rounded-lg text-center mt-4 p-1">{skills}</p>

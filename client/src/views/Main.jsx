@@ -45,7 +45,7 @@ const Main = () => {
       <header>
         <Navbar2 />
       </header>
-      <body>
+      <div>
         {/* JUMBOTRON */}
         <section>
           <div className="mt-16 bg-gray-100 py-24 rounded-xl max-w-screen-xl mx-auto">
@@ -59,7 +59,7 @@ const Main = () => {
                     Full-Stack Software Developer
                   </p>
                 </div>
-                <div className="flex items-center justify-center px-4 py-5 sm:p-6"></div>
+                {/* <div className="flex items-center justify-center px-4 py-5 sm:p-6"></div> */}
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@ const Main = () => {
                 "   ",
                 <FontAwesomeIcon size="2x" icon={faStripe} />,
                 "   ",
-                <FontAwesomeIcon size="2x" icon={faBootstrap} />,
+                // <FontAwesomeIcon size="2x" icon={faBootstrap} />,
               ]}
             />
             <Projects
@@ -170,13 +170,13 @@ const Main = () => {
               </div>
               <div className="absolute inset-0 flex justify-center items-center">
                 <h2 className="text-4xl text-black font-bold skew-y-[-24deg]">
-                  Hiker Project Coming Soon!
+                  Coming Soon!
                 </h2>
               </div>
             </div>
           </div>
         </section>
-      </body>
+      </div>
     </main>
   );
 };
