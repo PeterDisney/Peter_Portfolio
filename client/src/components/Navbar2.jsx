@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Logo from "./Logo";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import Resume from '../Assets/Peter.Disney.Resume.October.2022.pdf'
+import Resume from "../Assets/Peter.Disney.Resume.October.2022.pdf";
 
 const Navbar2 = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,6 +10,8 @@ const Navbar2 = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
   return (
     <nav className="flex items-center justify-between flex-wrap bg-gray-800 p-6 mx-auto h-full">
@@ -76,8 +78,13 @@ const Navbar2 = () => {
             Contact
           </a>
           <a
-            href="static/media/Peter.Disney.Resume.October.2022.cce026698fac53a6153c.pdf"
             className="text-xl text-white hover:text-xl transition-all duration-10 transform hover:scale-105"
+            target="_blank"
+            rel="noopener noreferrer"
+            href={Resume}
+            download={
+              isMobile ? "Peter.Disney.Resume.October.2022.pdf" : undefined
+            }
           >
             Resume
           </a>
