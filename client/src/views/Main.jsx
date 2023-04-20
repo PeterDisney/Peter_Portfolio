@@ -23,6 +23,7 @@ import {
 
 import "../index.css";
 import { faFlask, faLeaf } from "@fortawesome/free-solid-svg-icons";
+import Footer from "../components/Footer";
 
 const Main = () => {
   const languages = ["JavaScript", "Java", "Python", "HTML5", "CSS", "SQL"];
@@ -177,6 +178,7 @@ const Main = () => {
           </div>
         </section>
       </div>
+      <Footer/>
     </main>
   );
 };
