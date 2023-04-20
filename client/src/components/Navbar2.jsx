@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Logo from "./Logo";
 import Resume from "../Assets/Peter.Disney.Resume.October.2022.pdf";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Navbar2 = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,40 +52,58 @@ const Navbar2 = () => {
           isOpen ? "block" : "hidden"
         } mt-4 w-full block lg:flex lg:items-center lg:w-auto`}
       >
-        <div className="lg:flex-grow">
+        <div className="flex-grow items-center xl:flex items-center">
           <a
             href="#about"
-            className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
+            className="block mt-4 xl:flex-1 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
           >
             About
           </a>
           <a
             href="#work"
-            className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
+            className="block mt-4 xl:flex-2 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
           >
             Work
           </a>
           <a
             href="#skills"
-            className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
+            className="block mt-4 xl:flex-3 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
           >
             Skills
           </a>
           <a
             href="#contact"
-            className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
+            className="block mt-4 xl:flex-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
           >
             Contact
           </a>
           <a
-            className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white"
+            className="block mt-4 xl:flex-5 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
             target="_blank"
             rel="noopener noreferrer"
             href={Resume}
-            download={isMobile ? "Peter.Disney.Resume.October.2022.pdf" : undefined}
+            download={
+              isMobile ? "Peter.Disney.Resume.October.2022.pdf" : undefined
+            }
           >
             Resume
           </a>
+          <div className="flex justify-center mt-4 lg:mt-0 lg:text-center lg:flex-grow">
+            <a
+              className="text-white hover:text-xl transition-all duration-10 mx-2 my-1"
+              target="_blank"
+              href="https://www.linkedin.com/in/peter-disney-5063bb130/"
+            >
+              <FontAwesomeIcon size="2x" icon={faLinkedin} />
+            </a>
+            <a
+              className="text-white hover:text-xl transition-all duration-10 mx-2 my-1"
+              target="_blank"
+              href="https://github.com/PeterDisney"
+            >
+              <FontAwesomeIcon size="2x" icon={faGithub} />
+            </a>
+          </div>
         </div>
       </div>
     </nav>
