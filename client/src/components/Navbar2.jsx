@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Logo from "./Logo";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import Resume from "../Assets/Peter.Disney.Resume.October.2022.pdf";
 
 const Navbar2 = () => {
@@ -14,7 +12,7 @@ const Navbar2 = () => {
   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-gray-800 p-6 mx-auto h-full">
+    <nav className="flex items-center justify-between flex-wrap bg-gradient-to-b from-gray-900 to-gray-800 p-6 mx-auto h-full">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <span className="font-semibold text-xl tracking-tight">
           <Logo />
@@ -50,59 +48,41 @@ const Navbar2 = () => {
       <div
         className={`${
           isOpen ? "block" : "hidden"
-        } mt-4 w-full block flex-grow lg:flex lg:items-center lg:w-auto items-center`}
+        } mt-4 w-full block lg:flex lg:items-center lg:w-auto`}
       >
-        <div className=" flex justify-end gap-12 text-sm lg:flex-grow sm:flex items-center">
+        <div className="lg:flex-grow">
           <a
             href="#about"
-            className="text-xl text-white hover:text-xl transition-all duration-10 transform hover:scale-105"
+            className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
           >
             About
           </a>
           <a
             href="#work"
-            className="text-xl text-white hover:text-xl transition-all duration-10 transform hover:scale-105"
+            className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
           >
             Work
           </a>
           <a
             href="#skills"
-            className="text-xl text-white hover:text-xl transition-all duration-10 transform hover:scale-105"
+            className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
           >
             Skills
           </a>
           <a
             href="#contact"
-            className="text-xl text-white hover:text-xl transition-all duration-10 transform hover:scale-105"
+            className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
           >
             Contact
           </a>
           <a
-            className="text-xl text-white hover:text-xl transition-all duration-10 transform hover:scale-105"
+            className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white"
             target="_blank"
             rel="noopener noreferrer"
             href={Resume}
-            download={
-              isMobile ? "Peter.Disney.Resume.October.2022.pdf" : undefined
-            }
+            download={isMobile ? "Peter.Disney.Resume.October.2022.pdf" : undefined}
           >
             Resume
-          </a>
-        </div>
-        <div className="w-56 space-x-4 lg:text-center mx-auto items-center">
-          <a
-            className="text-white hover:text-xl transition-all duration-10 "
-            target="_blank"
-            href="https://www.linkedin.com/in/peter-disney-5063bb130/"
-          >
-            <FontAwesomeIcon size="2x" icon={faLinkedin} className="mx-auto" />
-          </a>
-          <a
-            className="text-white hover:text-xl transition-all duration-10"
-            target="_blank"
-            href="https://github.com/PeterDisney"
-          >
-            <FontAwesomeIcon size="2x" icon={faGithub} />
           </a>
         </div>
       </div>
