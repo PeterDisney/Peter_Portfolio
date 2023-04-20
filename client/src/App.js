@@ -20,7 +20,7 @@ function App() {
       <Routes>
         <Route element={<Main />} path='/' />
         <Route element={<About />} path='/about'/>
-        <Route element={<CodingResume />} path='/resume/coding'/>
+        <Route element={<CodingResume />} path='/resume'/>
         <Route element={<GeneralResume />} path='/resume/general'/>
         <Route element={<Projects />} path='/projects'/>
         <Route element={<Contact />} path='/contact'/>
@@ -29,5 +29,5 @@ function App() {
     </div>
   );
 }
-
+// import myPDF from '../Assets/Peter.Disney.Resume.October.2022.pdf';
 export default App;

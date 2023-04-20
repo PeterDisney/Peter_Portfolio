@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Logo from "./Logo";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import Resume from '../Assets/Peter.Disney.Resume.October.2022.pdf'
 
 const Navbar2 = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -73,6 +74,12 @@ const Navbar2 = () => {
             className="text-xl text-white hover:text-xl transition-all duration-10 transform hover:scale-105"
           >
             Contact
+          </a>
+          <a
+            href="static/media/Peter.Disney.Resume.October.2022.cce026698fac53a6153c.pdf"
+            className="text-xl text-white hover:text-xl transition-all duration-10 transform hover:scale-105"
+          >
+            Resume
           </a>
         </div>
         <div className="w-56 space-x-4 lg:text-center mx-auto items-center">
