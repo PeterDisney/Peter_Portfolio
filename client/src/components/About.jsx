@@ -12,12 +12,12 @@ const About = () => {
             <p className="my-4 p-2">
               My name is Peter Disney, an enthusiastic full stack web developer
               from the greater Seattle area. A recent graduate from Coding Dojo,
-              i have a strong foundational understanding of dynamic full stack
+              I have a strong foundational understanding of dynamic full stack
               web development.
             </p>
             <p className="my-4 p-2">
-              Currently i specalize in Full-Stack React, Python and Java. I
-              began my journey a little more than 6 months, and in that time i
+              Currently I specalize in Full-Stack React, Python and Java. I
+              began my journey a little more than 6 months, and in that time I
               have gone from no code to deploying my projects on AWS.
             </p>
           </div>
