@@ -105,19 +105,19 @@ const Main = () => {
               appImage={MotoMarket}
               appRepo={"https://github.com/PeterDisney/Ecommerce"}
               skills={[
-                <FontAwesomeIcon size="2x" icon={faJs} />,
+                <FontAwesomeIcon icon={faJs} />,
                 "     ",
-                <FontAwesomeIcon size="2x" icon={faReact} />,
+                <FontAwesomeIcon icon={faReact} />,
                 "   ",
-                <FontAwesomeIcon size="2x" icon={faAws} />,
+                <FontAwesomeIcon icon={faAws} />,
                 "   ",
-                <FontAwesomeIcon size="2x" icon={faGithub} />,
+                <FontAwesomeIcon icon={faGithub} />,
                 "   ",
-                <FontAwesomeIcon size="2x" icon={faNodeJs} />,
+                <FontAwesomeIcon icon={faNodeJs} />,
                 "   ",
-                <FontAwesomeIcon size="2x" icon={faEnvira} />,
+                <FontAwesomeIcon icon={faEnvira} />,
                 "   ",
-                <FontAwesomeIcon size="2x" icon={faStripe} />,
+                <FontAwesomeIcon icon={faStripe} />,
                 "   ",
                 // <FontAwesomeIcon size="2x" icon={faBootstrap} />,
               ]}
@@ -129,17 +129,17 @@ const Main = () => {
               appImage={PNWAir}
               appRepo={"https://github.com/PeterDisney/"}
               skills={[
-                <FontAwesomeIcon size="2x" icon={faJava} />,
+                <FontAwesomeIcon icon={faJava} />,
                 " ",
-                <FontAwesomeIcon size="2x" icon={faBootstrap} />,
+                <FontAwesomeIcon icon={faBootstrap} />,
                 " ",
-                <FontAwesomeIcon size="2x" icon={faAws} />,
+                <FontAwesomeIcon icon={faAws} />,
                 " ",
-                <FontAwesomeIcon size="2x" icon={faGithub} />,
+                <FontAwesomeIcon icon={faGithub} />,
                 " ",
-                <FontAwesomeIcon size="2x" icon={faLeaf} />,
+                <FontAwesomeIcon icon={faLeaf} />,
                 " ",
-                <FontAwesomeIcon size="2x" icon={faStripe} />,
+                <FontAwesomeIcon icon={faStripe} />,
               ]}
             />
             <div className="relative">
@@ -151,21 +151,21 @@ const Main = () => {
                   appImage={Hiker_project}
                   appRepo={"https://github.com/PeterDisney/Ecommerce"}
                   skills={[
-                    <FontAwesomeIcon size="2x" icon={faPython} />,
+                    <FontAwesomeIcon icon={faPython} />,
                     " ",
-                    <FontAwesomeIcon size="2x" icon={faFlask} />,
+                    <FontAwesomeIcon icon={faFlask} />,
                     " ",
                     // <FontAwesomeIcon size="2x" icon={faSql} />,
                     " ",
-                    <FontAwesomeIcon size="2x" icon={faGithub} />,
+                    <FontAwesomeIcon icon={faGithub} />,
                     " ",
-                    <FontAwesomeIcon size="2x" icon={faNodeJs} />,
+                    <FontAwesomeIcon icon={faNodeJs} />,
                     " ",
-                    <FontAwesomeIcon size="2x" icon={faEnvira} />,
+                    <FontAwesomeIcon icon={faEnvira} />,
                     " ",
-                    <FontAwesomeIcon size="2x" icon={faStripe} />,
+                    <FontAwesomeIcon icon={faStripe} />,
                     " ",
-                    <FontAwesomeIcon size="2x" icon={faBootstrap} />,
+                    <FontAwesomeIcon icon={faBootstrap} />,
                   ]}
                 />
               </div>
