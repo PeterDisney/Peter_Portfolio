@@ -11,7 +11,7 @@ const Project = ({
   skills,
 }) => {
   return (
-    <div className="shadow-lg bg-white p-6 rounded-xl mb-8">
+    <div className="shadow-lg bg-white shadow-xl p-6 rounded-xl mb-8">
       <p className="text-4xl font-bold mb-4">{name}</p>
       <p className="text-lg mb-2">{projectDescription}</p>
       <img className="shadow-xl rounded-lg mx-auto" src={appImage} alt={name} />

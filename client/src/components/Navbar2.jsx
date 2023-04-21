@@ -14,8 +14,8 @@ const Navbar2 = () => {
   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-gradient-to-b from-gray-900 to-gray-800 p-6 mx-auto h-full">
-      <div className="flex items-center flex-shrink-0 text-white mr-6">
+    <nav className="flex items-center justify-between flex-wrap bg-gradient-to-b from-gray-900 to-gray-800 p-2 mx-auto h-full">
+      <div className="flex items-center flex-shrink-0 text-white ml-6">
         <span className="font-semibold text-xl tracking-tight">
           <Logo />
         </span>
@@ -88,7 +88,7 @@ const Navbar2 = () => {
           >
             Resume
           </a>
-          <div className="flex justify-center mt-4 lg:mt-0 lg:text-center lg:flex-grow">
+          <div className="flex-grow items-center xl:flex items-center ">
             <a
               className="text-white hover:text-xl transition-all duration-10 mx-2 my-1"
               target="_blank"
