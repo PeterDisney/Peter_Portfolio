@@ -77,7 +77,7 @@ const Main = () => {
         {/* SKILLS */}
         <section id="skills">
           <div className="mt-16 bg-gray-100 shadow-lg p-6 rounded-xl max-w-screen-xl mx-auto">
-            <div className="max-w-screen-xl bg-white mx-auto px-4 sm:px-6 lg:px-8 rounded-xl shadow-xl">
+            <div className="max-w-screen-xl bg-white mx-auto px-4 py-4 sm:px-6 lg:px-8 rounded-xl shadow-xl">
               <p className="text-4xl font-bold mb-4">Skills and Technologies</p>
               <p className="text-xl mb-2">
                 The following is a list of my current skills and utilized
@@ -100,7 +100,9 @@ const Main = () => {
           <div className="mt-16 mb-16 bg-gray-100 shadow-xl p-6 rounded-xl max-w-screen-xl mx-auto gap-8">
             <Projects
               name={"Ecommerce App"}
-              projectDescription={"Effortlessly shop for motorcycles and components with this REACT app. Featuring AWS deployment, login/reg, Stripe, and Multer"}
+              projectDescription={
+                "Effortlessly shop for motorcycles and components with this REACT app. Featuring AWS deployment, login/reg, Stripe, and Multer"
+              }
               appLink={"https://motomarket.shop/"}
               appImage={MotoMarket}
               appRepo={"https://github.com/PeterDisney/Ecommerce"}
@@ -124,7 +126,9 @@ const Main = () => {
             />
             <Projects
               name={"Airline Ecommerce App"}
-              projectDescription={"Fly with ease using this AWS-deployed JAVA flight reservation site. Featuring Admin, user login/reg, and Stripe."}
+              projectDescription={
+                "Fly with ease using this AWS-deployed JAVA flight reservation site. Featuring Admin, user login/reg, and Stripe."
+              }
               appLink={"https://www.pnwairlines.flights/"}
               appImage={PNWAir}
               appRepo={"https://github.com/PeterDisney/"}
@@ -146,7 +150,9 @@ const Main = () => {
               <div className="blur-sm">
                 <Projects
                   name={"Hiker Project"}
-                  projectDescription={"Discover new trails with our cutting-edge Python hiker app, powered by Google Maps API."}
+                  projectDescription={
+                    "Discover new trails with our cutting-edge Python hiker app, powered by Google Maps API."
+                  }
                   appLink={"https://motomarket.shop/"}
                   appImage={Hiker_project}
                   appRepo={"https://github.com/PeterDisney/Ecommerce"}
