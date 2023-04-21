@@ -50,7 +50,7 @@ const Main = () => {
         {/* JUMBOTRON */}
         <section>
           <div className="mt-16 bg-gray-100 py-24 rounded-xl max-w-screen-xl mx-auto">
-            <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-screen-xl mx-auto px-6">
               <div className="bg-white shadow-xl rounded-lg overflow-hidden">
                 <div className="flex flex-col items-center justify-center px-4 py-5 sm:px-6">
                   <h2 className="text-6xl font-bold text-gray-800">
@@ -77,7 +77,7 @@ const Main = () => {
         {/* SKILLS */}
         <section id="skills">
           <div className="mt-16 bg-gray-100 shadow-lg p-6 rounded-xl max-w-screen-xl mx-auto">
-            <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 rounded-xl">
+            <div className="max-w-screen-xl bg-white mx-auto px-4 py-4 sm:px-6 lg:px-8 rounded-xl shadow-xl">
               <p className="text-4xl font-bold mb-4">Skills and Technologies</p>
               <p className="text-xl mb-2">
                 The following is a list of my current skills and utilized
@@ -97,75 +97,79 @@ const Main = () => {
 
         {/* RESUME */}
         <section id="work">
-          <div className="mt-16 mb-16 bg-gray-100 shadow-lg p-6 rounded-xl max-w-screen-xl mx-auto gap-8">
+          <div className="mt-16 mb-16 bg-gray-100 shadow-xl p-6 rounded-xl max-w-screen-xl mx-auto gap-8">
             <Projects
               name={"Ecommerce App"}
-              projectDescription={"A REACT application, "}
+              projectDescription={
+                "Effortlessly shop for motorcycles and components with this REACT app. Featuring AWS deployment, login/reg, Stripe, and Multer"
+              }
               appLink={"https://motomarket.shop/"}
               appImage={MotoMarket}
               appRepo={"https://github.com/PeterDisney/Ecommerce"}
               skills={[
-                <FontAwesomeIcon size="2x" icon={faJs} />,
+                <FontAwesomeIcon icon={faJs} />,
                 "     ",
-                <FontAwesomeIcon size="2x" icon={faReact} />,
+                <FontAwesomeIcon icon={faReact} />,
                 "   ",
-                <FontAwesomeIcon size="2x" icon={faAws} />,
+                <FontAwesomeIcon icon={faAws} />,
                 "   ",
-                <FontAwesomeIcon size="2x" icon={faGithub} />,
+                <FontAwesomeIcon icon={faGithub} />,
                 "   ",
-                <FontAwesomeIcon size="2x" icon={faNodeJs} />,
+                <FontAwesomeIcon icon={faNodeJs} />,
                 "   ",
-                <FontAwesomeIcon size="2x" icon={faEnvira} />,
+                <FontAwesomeIcon icon={faEnvira} />,
                 "   ",
-                <FontAwesomeIcon size="2x" icon={faStripe} />,
+                <FontAwesomeIcon icon={faStripe} />,
                 "   ",
                 // <FontAwesomeIcon size="2x" icon={faBootstrap} />,
               ]}
             />
             <Projects
               name={"Airline Ecommerce App"}
-              projectDescription={"A JAVA application, ."}
+              projectDescription={
+                "Fly with ease using this AWS-deployed JAVA flight reservation site. Featuring Admin, user login/reg, and Stripe."
+              }
               appLink={"https://www.pnwairlines.flights/"}
               appImage={PNWAir}
               appRepo={"https://github.com/PeterDisney/"}
               skills={[
-                <FontAwesomeIcon size="2x" icon={faJava} />,
+                <FontAwesomeIcon icon={faJava} />,
                 " ",
-                <FontAwesomeIcon size="2x" icon={faBootstrap} />,
+                <FontAwesomeIcon icon={faBootstrap} />,
                 " ",
-                <FontAwesomeIcon size="2x" icon={faAws} />,
+                <FontAwesomeIcon icon={faAws} />,
                 " ",
-                <FontAwesomeIcon size="2x" icon={faGithub} />,
+                <FontAwesomeIcon icon={faGithub} />,
                 " ",
-                <FontAwesomeIcon size="2x" icon={faLeaf} />,
+                <FontAwesomeIcon icon={faLeaf} />,
                 " ",
-                <FontAwesomeIcon size="2x" icon={faStripe} />,
+                <FontAwesomeIcon icon={faStripe} />,
               ]}
             />
             <div className="relative">
               <div className="blur-sm">
                 <Projects
                   name={"Hiker Project"}
-                  projectDescription={"A Python application ."}
+                  projectDescription={
+                    "Discover new trails with our cutting-edge Python hiker app, powered by Google Maps API."
+                  }
                   appLink={"https://motomarket.shop/"}
                   appImage={Hiker_project}
                   appRepo={"https://github.com/PeterDisney/Ecommerce"}
                   skills={[
-                    <FontAwesomeIcon size="2x" icon={faPython} />,
+                    <FontAwesomeIcon icon={faPython} />,
                     " ",
-                    <FontAwesomeIcon size="2x" icon={faFlask} />,
+                    <FontAwesomeIcon icon={faFlask} />,
                     " ",
-                    // <FontAwesomeIcon size="2x" icon={faSql} />,
+                    <FontAwesomeIcon icon={faGithub} />,
                     " ",
-                    <FontAwesomeIcon size="2x" icon={faGithub} />,
+                    <FontAwesomeIcon icon={faNodeJs} />,
                     " ",
-                    <FontAwesomeIcon size="2x" icon={faNodeJs} />,
+                    <FontAwesomeIcon icon={faEnvira} />,
                     " ",
-                    <FontAwesomeIcon size="2x" icon={faEnvira} />,
+                    <FontAwesomeIcon icon={faStripe} />,
                     " ",
-                    <FontAwesomeIcon size="2x" icon={faStripe} />,
-                    " ",
-                    <FontAwesomeIcon size="2x" icon={faBootstrap} />,
+                    <FontAwesomeIcon icon={faBootstrap} />,
                   ]}
                 />
               </div>
@@ -178,7 +182,7 @@ const Main = () => {
           </div>
         </section>
       </div>
-      <Footer/>
+      <Footer />
     </main>
   );
 };
