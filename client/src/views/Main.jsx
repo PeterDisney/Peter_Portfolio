@@ -43,7 +43,7 @@ const Main = () => {
 
   return (
     <main className="bg-cover bg-center bg-min-h-screen">
-      <header>
+      <header className="mb-4">
         <Navbar2 />
       </header>
       <div>
@@ -56,7 +56,7 @@ const Main = () => {
                   <h2 className="text-6xl font-bold text-gray-800">
                     Peter Disney
                   </h2>
-                  <p className="mt-1 text-2xl text-gray-600">
+                  <p className="mt-2 text-2xl text-gray-600">
                     Full-Stack Software Developer
                   </p>
                 </div>
