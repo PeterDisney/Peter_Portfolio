@@ -90,14 +90,14 @@ const Navbar2 = () => {
           </a>
           <div className="flex-grow items-center sm:mt-2 md:mt-2 lg:mt-0 lg:flex lg:items-center xl:mt-0">
             <a
-              className="text-white hover:text-xl transition-all duration-10 mx-2 my-1"
+              className="text-white hover:text-lg transition-all duration-10 mx-2 my-1"
               target="_blank"
               href="https://www.linkedin.com/in/peter-disney-5063bb130/"
             >
               <FontAwesomeIcon size="2x" icon={faLinkedin} />
             </a>
             <a
-              className="text-white hover:text-xl transition-all duration-10 mx-2 my-1"
+              className="text-white hover:text-lg transition-all duration-10 mx-2 my-1"
               target="_blank"
               href="https://github.com/PeterDisney"
             >
