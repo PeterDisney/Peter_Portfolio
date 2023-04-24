@@ -43,7 +43,7 @@ const Main = () => {
 
   return (
     <main className="bg-cover bg-center bg-min-h-screen">
-      <header>
+      <header className="mb-4">
         <Navbar2 />
       </header>
       <div>

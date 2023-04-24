@@ -88,7 +88,7 @@ const Navbar2 = () => {
           >
             Resume
           </a>
-          <div className="flex-grow items-center xl:flex items-center ">
+          <div className="flex-grow items-center sm:mt-2 md:mt-2 lg:mt-0 lg:flex lg:items-center xl:mt-0">
             <a
               className="text-white hover:text-xl transition-all duration-10 mx-2 my-1"
               target="_blank"
