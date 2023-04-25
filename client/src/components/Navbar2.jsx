@@ -90,7 +90,7 @@ const Navbar2 = () => {
           </a>
           <div className="flex-grow items-center mt-2 sm:mt-2 md:mt-2 lg:mt-0 lg:flex lg:items-center xl:mt-0">
             <a
-              className="text-white hover:text-lg transition-all duration-10 mx-2 my-1"
+              className="text-blue-600 hover:text-lg transition-all duration-10 mx-2 my-1"
               target="_blank"
               href="https://www.linkedin.com/in/peter-disney-5063bb130/"
             >
@@ -101,7 +101,7 @@ const Navbar2 = () => {
               target="_blank"
               href="https://github.com/PeterDisney"
             >
-              <FontAwesomeIcon size="2x" icon={faGithub} />
+              <FontAwesomeIcon size="2x"  icon={faGithub} />
             </a>
           </div>
         </div>
