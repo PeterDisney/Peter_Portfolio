@@ -30,7 +30,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="w-full md:w-1/4">
+        <div className="flex items-center w-full md:w-1/2">
           <img
             src="\Static\peter_headshot_1.jpg"
             className="mx-auto md:my-0 w-full max-w-2xl md:max-w-none"
