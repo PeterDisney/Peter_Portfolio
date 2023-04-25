@@ -10,22 +10,30 @@ const About = () => {
         <div className="w-full md:w-3/4 mx-auto md:mx-0 md:mr-4">
           <div className="mx-2">
             <p className="my-4 p-2">
-              My name is Peter Disney, an enthusiastic full stack web developer
-              from the greater Seattle area. A recent graduate from Coding Dojo,
-              I have a strong foundational understanding of dynamic full stack
-              web development.
+              Hello there! My name is Peter Disney, and I'm a Seattle-based
+              aspiring developer who just graduated from Coding Dojo. Despite
+              having only 6 months of coding experience, I've already gained
+              proficiency in React, Java, and Python. My passion for software
+              development knows no bounds, and I'm always eager to expand my
+              skill set and take on new challenges in the industry. Let's build
+              something amazing together!
             </p>
             <p className="my-4 p-2">
-              Currently I specalize in Full-Stack React, Python and Java. I
-              began my journey a little more than 6 months, and in that time I
-              have gone from no code to deploying my projects on AWS.
+              Previously, I held manufacturing planning positions in aerospace
+              and residential electric industries. I utilized Excel functions
+              and custom VB scripts to automate tasks. While using MySQL with
+              Excel to generate automated reports and make data-driven
+              decisions, I found my passion for software development. I
+              automated work order delivery to manufacturing personnel using
+              testing tools. Now, I seek to solve workplace bottlenecks through
+              software development.
             </p>
           </div>
         </div>
         <div className="w-full md:w-1/4">
           <img
             src="\Static\peter_headshot_1.jpg"
-            className="mx-auto my-4 md:my-0"
+            className="mx-auto md:my-0 w-full max-w-2xl md:max-w-none"
             alt=""
           ></img>
         </div>
