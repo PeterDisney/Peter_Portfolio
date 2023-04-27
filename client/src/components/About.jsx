@@ -10,13 +10,15 @@ const About = () => {
         <div className="w-full md:w-3/4 mx-auto md:mx-0 md:mr-4">
           <div className="mx-2">
             <p className="my-4 p-2">
-              Hello there! My name is Peter Disney, and I'm a Seattle-based
-              aspiring developer who just graduated from Coding Dojo. Despite
-              having only 6 months of coding experience, I've already gained
-              proficiency in React, Java, and Python. My passion for software
-              development knows no bounds, and I'm always eager to expand my
-              skill set and take on new challenges in the industry. Let's build
-              something amazing together!
+              Hello, my name is Peter Disney, and I'm a Seattle-based aspiring
+              developer with a passion for creating exceptional software. I
+              recently graduated from Coding Dojo, where I gained expertise in
+              React, Java, and Python. While I may be new to the industry, I'm
+              not new to hard work and dedication. I'm always eager to learn and
+              tackle new challenges to improve my craft. I believe that teamwork
+              and collaboration are the keys to success, and I'm ready to work
+              together with a team to create something amazing that will make a
+              real impact. Let's build something amazing together!
             </p>
             <p className="my-4 p-2">
               Previously, I held manufacturing planning positions in aerospace
