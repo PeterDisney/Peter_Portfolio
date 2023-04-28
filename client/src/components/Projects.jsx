@@ -32,7 +32,7 @@ const Project = ({
           <a
             className="text-black hover:text-l transition-all duration-200 "
             target="_blank"
-            href="https://github.com/PeterDisney"
+            href="https://github.com/PeterDisney?tab=repositories"
           >
             <FontAwesomeIcon
               size="2x"
