@@ -24,11 +24,10 @@ const About = () => {
               Previously, I held manufacturing planning positions in aerospace
               and residential electric industries. I utilized Excel functions
               and custom VB scripts to automate tasks. While using MySQL with
-              Excel to generate automated reports and make data-driven
-              decisions, I found my passion for software development. I
-              automated work order delivery to manufacturing personnel using
-              testing tools. Now, I seek to solve workplace bottlenecks through
-              software development.
+              Excel to generate automated reports, I found my passion for
+              software development. I automated work order delivery to
+              manufacturing personnel using testing tools. Now, I seek to solve
+              workplace bottlenecks through software development.
             </p>
           </div>
         </div>

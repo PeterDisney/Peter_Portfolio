@@ -71,12 +71,12 @@ const Navbar2 = () => {
           >
             Skills
           </a>
-          <a
+          {/* <a
             href="#contact"
             className="block mt-4 lg:flex-4 lg:inline-block lg:mt-0 text-xl text-gray-200 hover:text-white mx-4"
           >
             Contact
-          </a>
+          </a> */}
           <a
             className="block mt-4 lg:flex-5 lg:inline-block lg:mt-0 text-xl text-gray-200 hover:text-white mx-4"
             target="_blank"
