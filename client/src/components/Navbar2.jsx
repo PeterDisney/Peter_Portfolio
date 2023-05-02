@@ -52,7 +52,7 @@ const Navbar2 = () => {
           isOpen ? "block" : "hidden"
         } mt-4 w-full block lg:flex lg:items-center lg:w-auto`}
       >
-        <div className="flex-grow items-center lg:flex items-center mt-0">
+        <div className="flex-grow items-center lg:flex items-center -mt-2">
           <a
             href="#about"
             className="block mt-4 lg:flex-1 lg:inline-block lg:mt-0 text-xl text-gray-200 hover:text-white mx-4"
