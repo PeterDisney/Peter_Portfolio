@@ -38,6 +38,7 @@ const Main = () => {
     "Route 53",
     "SSL",
     "Deployment",
+    "test",
   ];
   const tools = ["Git", "GitHub", "VS Code", "STS"];
 
