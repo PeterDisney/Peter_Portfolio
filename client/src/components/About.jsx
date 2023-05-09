@@ -34,7 +34,7 @@ const About = () => {
         <div className="flex items-center w-full md:w-1/2">
           <img
             src="\Static\peter_headshot_1.jpg"
-            className="mx-auto md:my-0 w-full max-w-2xl md:max-w-none"
+            className="mx-auto md:my-0 w-full max-w-full xs:max-w-xxs sm:max-w-xs h-auto"
             alt=""
           ></img>
         </div>
