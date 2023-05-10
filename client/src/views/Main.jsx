@@ -40,7 +40,7 @@ const Main = () => {
     "Deployment",
     "test",
   ];
-  const tools = ["Git", "GitHub", "VS Code", "STS"];
+  const tools = ["Git", "GitHub", "Visual Studio Code", "STS"];
 
   return (
     <main className="bg-cover bg-center bg-min-h-screen">
