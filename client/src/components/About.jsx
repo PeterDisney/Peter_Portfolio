@@ -27,11 +27,11 @@ const About = () => {
               Excel to generate automated reports, I found my passion for
               software development. I automated work order delivery to
               manufacturing personnel using testing tools. Now, I seek to solve
-              workplace bottlenecks through software development.
+              workplace bottlenecks through software development! test test test 
             </p>
           </div>
         </div>
-        <div className="flex items-center w-full md:w-1/2">
+        <div className="flex items-center w-full md:w-1/2 lg:w-full">
           <img
             src="\Static\peter_headshot_1.jpg"
             className="mx-auto md:my-0 w-full max-w-full xs:max-w-xxs sm:max-w-xs h-auto"
