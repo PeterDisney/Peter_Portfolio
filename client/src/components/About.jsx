@@ -31,7 +31,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="flex items-center w-full md:w-1/2">
+        <div className="flex items-center w-full md:w-1/2 lg:w-full">
           <img
             src="\Static\peter_headshot_1.jpg"
             className="mx-auto md:my-0 w-full max-w-full xs:max-w-xxs sm:max-w-xs h-auto"
