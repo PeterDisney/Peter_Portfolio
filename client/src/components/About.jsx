@@ -27,7 +27,7 @@ const About = () => {
               Excel to generate automated reports, I found my passion for
               software development. I automated work order delivery to
               manufacturing personnel using testing tools. Now, I seek to solve
-              workplace bottlenecks through software development!
+              workplace bottlenecks through software development! test test test 
             </p>
           </div>
         </div>
