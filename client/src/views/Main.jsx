@@ -55,10 +55,10 @@ const Main = () => {
               <div className="bg-white shadow-xl rounded-lg overflow-hidden">
                 <div className="flex flex-col items-center justify-center px-4 py-5 sm:px-6">
                   <h2 className="text-6xl font-bold text-gray-800">
-                  CERTAINTY CONTRACTING
+                    CERTAINTY CONTRACTING
                   </h2>
                   <p className="mt-2 text-2xl text-gray-600">
-                    
+                    Transforming Spaces with Precision and Quality Craftsmanship
                   </p>
                 </div>
                 {/* <div className="flex items-center justify-center px-4 py-5 sm:p-6"></div> */}
